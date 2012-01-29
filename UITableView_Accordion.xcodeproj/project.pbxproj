@@ -164,6 +164,9 @@
 /* Begin PBXProject section */
 		AB8A932414D4CB0A00D19BD8 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = AB8A932714D4CB0A00D19BD8 /* Build configuration list for PBXProject "UITableView_Accordion" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -285,6 +288,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UITableView_Accordion/UITableView_Accordion-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "UITableView_Accordion/UITableView_Accordion-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -298,6 +302,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UITableView_Accordion/UITableView_Accordion-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "UITableView_Accordion/UITableView_Accordion-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
@@ -324,6 +329,7 @@
 				AB8A935014D4CB0A00D19BD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
