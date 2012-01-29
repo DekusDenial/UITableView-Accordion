@@ -221,9 +221,8 @@
     {      
         [tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:self.indexPathSelected.row+1 inSection:self.indexPathSelected.section]].hidden=YES;     
         
-        [tableView beginUpdates];
         [tableView reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationTop];
-        [tableView endUpdates];
+
         [tableView beginUpdates];
         
         [[tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:indexPath.row+1 inSection:indexPath.section]] performSelector:@selector(setHidden:) withObject:NO afterDelay: HARDCODED_REAPPEAR_DELAY];
