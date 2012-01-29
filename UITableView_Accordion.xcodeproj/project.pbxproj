@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB8A933214D4CB0A00D19BD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8A933114D4CB0A00D19BD8 /* UIKit.framework */; };
+		AB8A933414D4CB0A00D19BD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8A933314D4CB0A00D19BD8 /* Foundation.framework */; };
+		AB8A933614D4CB0A00D19BD8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8A933514D4CB0A00D19BD8 /* CoreGraphics.framework */; };
+		AB8A933C14D4CB0A00D19BD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB8A933A14D4CB0A00D19BD8 /* InfoPlist.strings */; };
+		AB8A933F14D4CB0A00D19BD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8A933E14D4CB0A00D19BD8 /* main.m */; };
+		AB8A934214D4CB0A00D19BD8 /* UITableView_AccordionAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8A934114D4CB0A00D19BD8 /* UITableView_AccordionAppDelegate.m */; };
+		AB8A934514D4CB0A00D19BD8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB8A934314D4CB0A00D19BD8 /* MainWindow.xib */; };
+		AB8A934814D4CB0A00D19BD8 /* UITableView_AccordionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8A934714D4CB0A00D19BD8 /* UITableView_AccordionViewController.m */; };
+		AB8A934B14D4CB0A00D19BD8 /* UITableView_AccordionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB8A934914D4CB0A00D19BD8 /* UITableView_AccordionViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB8A932D14D4CB0A00D19BD8 /* UITableView_Accordion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableView_Accordion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8A933114D4CB0A00D19BD8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB8A933314D4CB0A00D19BD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB8A933514D4CB0A00D19BD8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB8A933914D4CB0A00D19BD8 /* UITableView_Accordion-Info.plist */ = {isa = PBXFileReference; path = "UITableView_Accordion-Info.plist"; sourceTree = "<group>"; };
+		AB8A933B14D4CB0A00D19BD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB8A933D14D4CB0A00D19BD8 /* UITableView_Accordion-Prefix.pch */ = {isa = PBXFileReference; path = "UITableView_Accordion-Prefix.pch"; sourceTree = "<group>"; };
+		AB8A933E14D4CB0A00D19BD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB8A934014D4CB0A00D19BD8 /* UITableView_AccordionAppDelegate.h */ = {isa = PBXFileReference; path = UITableView_AccordionAppDelegate.h; sourceTree = "<group>"; };
+		AB8A934114D4CB0A00D19BD8 /* UITableView_AccordionAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableView_AccordionAppDelegate.m; sourceTree = "<group>"; };
+		AB8A934414D4CB0A00D19BD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		AB8A934614D4CB0A00D19BD8 /* UITableView_AccordionViewController.h */ = {isa = PBXFileReference; path = UITableView_AccordionViewController.h; sourceTree = "<group>"; };
+		AB8A934714D4CB0A00D19BD8 /* UITableView_AccordionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableView_AccordionViewController.m; sourceTree = "<group>"; };
+		AB8A934A14D4CB0A00D19BD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UITableView_AccordionViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB8A932A14D4CB0A00D19BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8A933214D4CB0A00D19BD8 /* UIKit.framework in Frameworks */,
+				AB8A933414D4CB0A00D19BD8 /* Foundation.framework in Frameworks */,
+				AB8A933614D4CB0A00D19BD8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB8A932214D4CB0A00D19BD8 = {
+			isa = PBXGroup;
+			children = (
+				AB8A933714D4CB0A00D19BD8 /* UITableView_Accordion */,
+				AB8A933014D4CB0A00D19BD8 /* Frameworks */,
+				AB8A932E14D4CB0A00D19BD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB8A932E14D4CB0A00D19BD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB8A932D14D4CB0A00D19BD8 /* UITableView_Accordion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB8A933014D4CB0A00D19BD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB8A933114D4CB0A00D19BD8 /* UIKit.framework */,
+				AB8A933314D4CB0A00D19BD8 /* Foundation.framework */,
+				AB8A933514D4CB0A00D19BD8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB8A933714D4CB0A00D19BD8 /* UITableView_Accordion */ = {
+			isa = PBXGroup;
+			children = (
+				AB8A934014D4CB0A00D19BD8 /* UITableView_AccordionAppDelegate.h */,
+				AB8A934114D4CB0A00D19BD8 /* UITableView_AccordionAppDelegate.m */,
+				AB8A934314D4CB0A00D19BD8 /* MainWindow.xib */,
+				AB8A934614D4CB0A00D19BD8 /* UITableView_AccordionViewController.h */,
+				AB8A934714D4CB0A00D19BD8 /* UITableView_AccordionViewController.m */,
+				AB8A934914D4CB0A00D19BD8 /* UITableView_AccordionViewController.xib */,
+				AB8A933814D4CB0A00D19BD8 /* Supporting Files */,
+			);
+			path = UITableView_Accordion;
+			sourceTree = "<group>";
+		};
+		AB8A933814D4CB0A00D19BD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB8A933914D4CB0A00D19BD8 /* UITableView_Accordion-Info.plist */,
+				AB8A933A14D4CB0A00D19BD8 /* InfoPlist.strings */,
+				AB8A933D14D4CB0A00D19BD8 /* UITableView_Accordion-Prefix.pch */,
+				AB8A933E14D4CB0A00D19BD8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB8A932C14D4CB0A00D19BD8 /* UITableView_Accordion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8A934E14D4CB0A00D19BD8 /* Build configuration list for PBXNativeTarget "UITableView_Accordion" */;
+			buildPhases = (
+				AB8A932914D4CB0A00D19BD8 /* Sources */,
+				AB8A932A14D4CB0A00D19BD8 /* Frameworks */,
+				AB8A932B14D4CB0A00D19BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITableView_Accordion;
+			productName = UITableView_Accordion;
+			productReference = AB8A932D14D4CB0A00D19BD8 /* UITableView_Accordion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB8A932414D4CB0A00D19BD8 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AB8A932714D4CB0A00D19BD8 /* Build configuration list for PBXProject "UITableView_Accordion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB8A932214D4CB0A00D19BD8;
+			productRefGroup = AB8A932E14D4CB0A00D19BD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB8A932C14D4CB0A00D19BD8 /* UITableView_Accordion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB8A932B14D4CB0A00D19BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8A933C14D4CB0A00D19BD8 /* InfoPlist.strings in Resources */,
+				AB8A934514D4CB0A00D19BD8 /* MainWindow.xib in Resources */,
+				AB8A934B14D4CB0A00D19BD8 /* UITableView_AccordionViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB8A932914D4CB0A00D19BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8A933F14D4CB0A00D19BD8 /* main.m in Sources */,
+				AB8A934214D4CB0A00D19BD8 /* UITableView_AccordionAppDelegate.m in Sources */,
+				AB8A934814D4CB0A00D19BD8 /* UITableView_AccordionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB8A933A14D4CB0A00D19BD8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB8A933B14D4CB0A00D19BD8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB8A934314D4CB0A00D19BD8 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB8A934414D4CB0A00D19BD8 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		AB8A934914D4CB0A00D19BD8 /* UITableView_AccordionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB8A934A14D4CB0A00D19BD8 /* en */,
+			);
+			name = UITableView_AccordionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB8A934C14D4CB0A00D19BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB8A934D14D4CB0A00D19BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AB8A934F14D4CB0A00D19BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITableView_Accordion/UITableView_Accordion-Prefix.pch";
+				INFOPLIST_FILE = "UITableView_Accordion/UITableView_Accordion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB8A935014D4CB0A00D19BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITableView_Accordion/UITableView_Accordion-Prefix.pch";
+				INFOPLIST_FILE = "UITableView_Accordion/UITableView_Accordion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB8A932714D4CB0A00D19BD8 /* Build configuration list for PBXProject "UITableView_Accordion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8A934C14D4CB0A00D19BD8 /* Debug */,
+				AB8A934D14D4CB0A00D19BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB8A934E14D4CB0A00D19BD8 /* Build configuration list for PBXNativeTarget "UITableView_Accordion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8A934F14D4CB0A00D19BD8 /* Debug */,
+				AB8A935014D4CB0A00D19BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB8A932414D4CB0A00D19BD8 /* Project object */;
+}
