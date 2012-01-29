@@ -1,0 +1,8 @@
+This is an Accordian Menu using UITableView and its related classes in Objective-C.
+The Project's iOS SDK was 4.3 during the time of implementation.
+You can either design the table cell using Interface Builder or directly writing out in codes.
+In this small project, I performed an example of implementation of the table cells simply using Interface Builder. 
+This project is already a sample of an Accordion itself. The portrayed sample here is Mega Millions Lottery.
+I have performed some small tweaks to make the table cell animated smoothly. You might have a better vision of the animation when you run the application on an actual iDevice.
+
+- Dekus Lam

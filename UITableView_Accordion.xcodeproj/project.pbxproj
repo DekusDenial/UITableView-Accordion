@@ -16,6 +16,16 @@
 		AB8A934514D4CB0A00D19BD8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB8A934314D4CB0A00D19BD8 /* MainWindow.xib */; };
 		AB8A934814D4CB0A00D19BD8 /* UITableView_AccordionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8A934714D4CB0A00D19BD8 /* UITableView_AccordionViewController.m */; };
 		AB8A934B14D4CB0A00D19BD8 /* UITableView_AccordionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB8A934914D4CB0A00D19BD8 /* UITableView_AccordionViewController.xib */; };
+		AB8A935414D4CD8100D19BD8 /* CustomAccordionCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB8A935314D4CD8100D19BD8 /* CustomAccordionCells.xib */; };
+		AB8A935C14D4D11A00D19BD8 /* matchmatch_7acce5.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8A935514D4D11A00D19BD8 /* matchmatch_7acce5.png */; };
+		AB8A935D14D4D11A00D19BD8 /* mb_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB8A935614D4D11A00D19BD8 /* mb_1.gif */; };
+		AB8A935E14D4D11A00D19BD8 /* megaball.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8A935714D4D11A00D19BD8 /* megaball.png */; };
+		AB8A935F14D4D11A00D19BD8 /* megamillions.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8A935814D4D11A00D19BD8 /* megamillions.png */; };
+		AB8A936014D4D11A00D19BD8 /* MPicon.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8A935914D4D11A00D19BD8 /* MPicon.png */; };
+		AB8A936114D4D11A00D19BD8 /* playbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8A935A14D4D11A00D19BD8 /* playbutton.png */; };
+		AB8A936214D4D11A00D19BD8 /* regball.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8A935B14D4D11A00D19BD8 /* regball.png */; };
+		AB8A936514D4D15C00D19BD8 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB8A936314D4D15C00D19BD8 /* 1.gif */; };
+		AB8A936614D4D15C00D19BD8 /* dollar-sign.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8A936414D4D15C00D19BD8 /* dollar-sign.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +33,26 @@
 		AB8A933114D4CB0A00D19BD8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AB8A933314D4CB0A00D19BD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AB8A933514D4CB0A00D19BD8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AB8A933914D4CB0A00D19BD8 /* UITableView_Accordion-Info.plist */ = {isa = PBXFileReference; path = "UITableView_Accordion-Info.plist"; sourceTree = "<group>"; };
+		AB8A933914D4CB0A00D19BD8 /* UITableView_Accordion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableView_Accordion-Info.plist"; sourceTree = "<group>"; };
 		AB8A933B14D4CB0A00D19BD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AB8A933D14D4CB0A00D19BD8 /* UITableView_Accordion-Prefix.pch */ = {isa = PBXFileReference; path = "UITableView_Accordion-Prefix.pch"; sourceTree = "<group>"; };
+		AB8A933D14D4CB0A00D19BD8 /* UITableView_Accordion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView_Accordion-Prefix.pch"; sourceTree = "<group>"; };
 		AB8A933E14D4CB0A00D19BD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AB8A934014D4CB0A00D19BD8 /* UITableView_AccordionAppDelegate.h */ = {isa = PBXFileReference; path = UITableView_AccordionAppDelegate.h; sourceTree = "<group>"; };
+		AB8A934014D4CB0A00D19BD8 /* UITableView_AccordionAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITableView_AccordionAppDelegate.h; sourceTree = "<group>"; };
 		AB8A934114D4CB0A00D19BD8 /* UITableView_AccordionAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableView_AccordionAppDelegate.m; sourceTree = "<group>"; };
 		AB8A934414D4CB0A00D19BD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		AB8A934614D4CB0A00D19BD8 /* UITableView_AccordionViewController.h */ = {isa = PBXFileReference; path = UITableView_AccordionViewController.h; sourceTree = "<group>"; };
+		AB8A934614D4CB0A00D19BD8 /* UITableView_AccordionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITableView_AccordionViewController.h; sourceTree = "<group>"; };
 		AB8A934714D4CB0A00D19BD8 /* UITableView_AccordionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableView_AccordionViewController.m; sourceTree = "<group>"; };
 		AB8A934A14D4CB0A00D19BD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UITableView_AccordionViewController.xib; sourceTree = "<group>"; };
+		AB8A935314D4CD8100D19BD8 /* CustomAccordionCells.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomAccordionCells.xib; sourceTree = "<group>"; };
+		AB8A935514D4D11A00D19BD8 /* matchmatch_7acce5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = matchmatch_7acce5.png; sourceTree = "<group>"; };
+		AB8A935614D4D11A00D19BD8 /* mb_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mb_1.gif; sourceTree = "<group>"; };
+		AB8A935714D4D11A00D19BD8 /* megaball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = megaball.png; sourceTree = "<group>"; };
+		AB8A935814D4D11A00D19BD8 /* megamillions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = megamillions.png; sourceTree = "<group>"; };
+		AB8A935914D4D11A00D19BD8 /* MPicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPicon.png; sourceTree = "<group>"; };
+		AB8A935A14D4D11A00D19BD8 /* playbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playbutton.png; sourceTree = "<group>"; };
+		AB8A935B14D4D11A00D19BD8 /* regball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regball.png; sourceTree = "<group>"; };
+		AB8A936314D4D15C00D19BD8 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		AB8A936414D4D15C00D19BD8 /* dollar-sign.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dollar-sign.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +105,7 @@
 				AB8A934614D4CB0A00D19BD8 /* UITableView_AccordionViewController.h */,
 				AB8A934714D4CB0A00D19BD8 /* UITableView_AccordionViewController.m */,
 				AB8A934914D4CB0A00D19BD8 /* UITableView_AccordionViewController.xib */,
+				AB8A935314D4CD8100D19BD8 /* CustomAccordionCells.xib */,
 				AB8A933814D4CB0A00D19BD8 /* Supporting Files */,
 			);
 			path = UITableView_Accordion;
@@ -93,12 +114,29 @@
 		AB8A933814D4CB0A00D19BD8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AB8A936814D4D17800D19BD8 /* Images */,
 				AB8A933914D4CB0A00D19BD8 /* UITableView_Accordion-Info.plist */,
 				AB8A933A14D4CB0A00D19BD8 /* InfoPlist.strings */,
 				AB8A933D14D4CB0A00D19BD8 /* UITableView_Accordion-Prefix.pch */,
 				AB8A933E14D4CB0A00D19BD8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB8A936814D4D17800D19BD8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AB8A936314D4D15C00D19BD8 /* 1.gif */,
+				AB8A936414D4D15C00D19BD8 /* dollar-sign.jpg */,
+				AB8A935514D4D11A00D19BD8 /* matchmatch_7acce5.png */,
+				AB8A935614D4D11A00D19BD8 /* mb_1.gif */,
+				AB8A935714D4D11A00D19BD8 /* megaball.png */,
+				AB8A935814D4D11A00D19BD8 /* megamillions.png */,
+				AB8A935914D4D11A00D19BD8 /* MPicon.png */,
+				AB8A935A14D4D11A00D19BD8 /* playbutton.png */,
+				AB8A935B14D4D11A00D19BD8 /* regball.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +189,16 @@
 				AB8A933C14D4CB0A00D19BD8 /* InfoPlist.strings in Resources */,
 				AB8A934514D4CB0A00D19BD8 /* MainWindow.xib in Resources */,
 				AB8A934B14D4CB0A00D19BD8 /* UITableView_AccordionViewController.xib in Resources */,
+				AB8A935414D4CD8100D19BD8 /* CustomAccordionCells.xib in Resources */,
+				AB8A935C14D4D11A00D19BD8 /* matchmatch_7acce5.png in Resources */,
+				AB8A935D14D4D11A00D19BD8 /* mb_1.gif in Resources */,
+				AB8A935E14D4D11A00D19BD8 /* megaball.png in Resources */,
+				AB8A935F14D4D11A00D19BD8 /* megamillions.png in Resources */,
+				AB8A936014D4D11A00D19BD8 /* MPicon.png in Resources */,
+				AB8A936114D4D11A00D19BD8 /* playbutton.png in Resources */,
+				AB8A936214D4D11A00D19BD8 /* regball.png in Resources */,
+				AB8A936514D4D15C00D19BD8 /* 1.gif in Resources */,
+				AB8A936614D4D15C00D19BD8 /* dollar-sign.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

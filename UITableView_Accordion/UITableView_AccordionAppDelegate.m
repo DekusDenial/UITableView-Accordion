@@ -23,6 +23,8 @@
      
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    application.statusBarStyle=UIStatusBarStyleBlackOpaque;
+   // [self.viewController nav 
     return YES;
 }
 

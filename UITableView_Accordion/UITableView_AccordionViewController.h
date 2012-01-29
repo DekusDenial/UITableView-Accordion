@@ -7,9 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
+//#import <MediaPlayer/MediaPlayer.h>
 
-@interface UITableView_AccordionViewController : UIViewController {
-    
+@interface UITableView_AccordionViewController : UITableViewController {
+    BOOL isSelected;
+    CGFloat customCellHeight[4];
 }
+
+@property (nonatomic, retain) NSArray *tableArray;
+@property (nonatomic, retain) NSIndexPath *indexPathSelected;
+
+@property (nonatomic, assign) IBOutlet UITableViewCell * recentDrawingCell;
+@property (nonatomic, assign) IBOutlet UITableViewCell * matchMatchCell;
+@property (nonatomic, assign) IBOutlet UITableViewCell * jackpotWinnersCell;
+@property (nonatomic, assign) IBOutlet UITableViewCell * drawingVideoCell;
+@property (nonatomic, assign) IBOutlet UITableViewCell * emptyCell;
+@property (nonatomic, assign) IBOutlet UILabel * footer;
+@property (nonatomic, retain) NSArray * detailCellArray;
+
+- (IBAction) playVideo: (id)sender;
 
 @end
