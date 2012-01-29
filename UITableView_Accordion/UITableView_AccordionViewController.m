@@ -10,7 +10,7 @@
 #import <QuartzCore/QuartzCore.h>
 
 // How long it should wait before displaying the cell content
-#define HARDCODED_REAPPEAR_DELAY 0.20
+#define HARDCODED_REAPPEAR_DELAY 0.25
 
 @implementation UITableView_AccordionViewController
 
@@ -72,7 +72,7 @@
     customCellHeight[3] = drawingVideoCell.contentView.bounds.size.height;
     
     // Slight gap for header and no gap for footer
-    self.tableView.sectionHeaderHeight = 1.0;
+    self.tableView.sectionHeaderHeight = self.footer.frame.size.height;
     self.tableView.sectionFooterHeight = 0.0;
     self.tableView.backgroundColor = [UIColor blackColor];
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
@@ -86,6 +86,16 @@
     // Add the footer to the tableView's super view
     self.footer.center=CGPointMake(self.view.frame.size.width/2, self.view.frame.size.height - self.footer.frame.size.height/2);
     [self.view addSubview:self.footer];
+    
+    UILabel * header = [[UILabel alloc] initWithFrame:self.footer.frame];
+    header.backgroundColor=self.footer.backgroundColor;
+    header.text=self.footer.text;
+    header.textColor=self.footer.textColor;
+    header.font=self.footer.font;
+    header.textAlignment=self.footer.textAlignment;
+    header.center=CGPointMake(self.view.frame.size.width/2, self.footer.frame.size.height/2);
+    [self.view addSubview:header];
+    [header release];
 }
 
 
@@ -211,8 +221,9 @@
     {      
         [tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:self.indexPathSelected.row+1 inSection:self.indexPathSelected.section]].hidden=YES;     
         
+        [tableView beginUpdates];
         [tableView reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationTop];
-        
+        [tableView endUpdates];
         [tableView beginUpdates];
         
         [[tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:indexPath.row+1 inSection:indexPath.section]] performSelector:@selector(setHidden:) withObject:NO afterDelay: HARDCODED_REAPPEAR_DELAY];
