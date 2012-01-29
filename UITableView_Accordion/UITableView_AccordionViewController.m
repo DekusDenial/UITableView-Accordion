@@ -206,7 +206,7 @@
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES]; // make highlight goes away
     
-    if (indexPath.row == self.indexPathSelected.row + 1) return;
+    if (indexPath.row == self.indexPathSelected.row + 1 || indexPath.row == self.indexPathSelected.row) return;
     if (self.indexPathSelected != indexPath)
     {      
         [tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:self.indexPathSelected.row+1 inSection:self.indexPathSelected.section]].hidden=YES;     
